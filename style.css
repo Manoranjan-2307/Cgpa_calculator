@@ -1,0 +1,182 @@
+#text{
+    font-size: 2.2rem;
+    font-family: Allura, cursive;
+    font-weight: 600;
+    margin-top: 13px;
+}
+#header{
+    text-align: center;
+    background-color:rgb(226, 167, 178);
+    margin-top: 20px;
+    height: 75px;
+    width: 25%;
+    margin-left: 37%;
+    border-radius: 18px;
+    border-width: 3px;
+    border-color: rgb(226, 167, 178);
+    border-style: solid;
+}
+
+#container{
+    margin-left: 25%;
+    margin-top: 100px;
+    height: 320px;
+    width: 750px;
+    border-width: 3px;
+    border-color: black;
+    border-style: dashed;
+    background-color:rgb(221, 189, 147);
+    border-radius: 15px;
+}
+#info{
+    padding: 25px;
+}
+.input-field{
+    width: 300px;
+    height: 40px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    font-family: sans-serif;
+    background-color:beige;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+   
+}
+#input-container{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#inp2{
+    margin-left: 35px;
+}
+#result{
+    font-family: Verdana;
+    font-size: 28px;
+    margin-left: 245px;
+    margin-top: 60px;
+    font-weight: 500;
+    color: green;
+}
+#cgpa{
+    color: rgb(24, 24, 164);
+    font-family: sans-serif;
+}
+#btns{
+    margin-top: 50px;
+    margin-left: 28%;
+}
+#add{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: black;
+    border-style:groove;
+    background-color: rgba(243, 168, 141, 0.878);
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+#add:hover{
+    cursor: pointer;
+    background-color: rgba(247, 128, 85, 0.878);
+}
+#calculate{
+    height: 40px;
+    width: 110px;
+    margin-left: 65px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: black;
+    border-style:groove;
+    background-color: rgb(254, 182, 198);
+    font-family: Helvetica;
+    color:rgb(26, 17, 33);
+    font-weight: 600;
+    font-size: 15px;
+}
+#calculate:hover{
+    cursor: pointer;
+    background-color: rgb(255, 113, 144);
+}
+body{
+    
+    background-image: url(pablo-merchan-montes-5QtKna-WiFM-unsplash_800x.webp);
+    background-size: cover;
+    
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(pablo-merchan-montes-5QtKna-WiFM-unsplash_800x.webp);
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -1;
+}
+/*responsive design */
+@media (max-width: 600px){
+    #header{
+        width: 50%;
+        height: 100px;
+        margin-left: 25%;
+        margin-top: 25px;
+    }
+
+    #text{
+        font-size: 2rem;
+    }
+
+    #container{
+        width: 260px;
+        margin-left: 15%;
+        height: 330px;
+        margin-top: 85px;
+    }
+    .input-field{
+        width: 200px;
+        height: 35px;
+        font-size: 17px;
+    }
+    #input-container{
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #inp2{
+        margin-left: 0px;
+    }
+    #result{
+        margin-left: 40px;
+        font-size: 23px;
+        margin-top: 45px;
+    }
+    #btns{
+        margin-top: 45px;
+        margin-left: 7%;
+    }
+    #add{
+        width: 70px;
+        height: 33px;
+        font-size: 14px;
+       
+    }
+    #calculate{
+        width: 80px;
+        height: 33px;
+        font-size: 14px;
+        margin-left: 30px;
+        
+    }
+
+
+}

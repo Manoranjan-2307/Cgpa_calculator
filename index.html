@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CGPA Calculator</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="graduation-cap-feature.webp">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <p id="text">CGPA <span style="margin-left: 15px;">Calculator</span></p>
+    </div>
+
+    <div id="container">
+      <div id="info">
+        <div id="input-container">
+          <input
+            type="number"
+            id="inp1"
+            class="input-field"
+            placeholder="Credits"
+            maxlength="2"
+            required
+            
+          />
+          <input
+            type="text"
+            id="inp2"
+            class="input-field"
+            placeholder="Grade point"
+            maxlength="2"
+            required
+          />
+        </div>
+        <p id="result">
+          CGPA: <span id="cgpa"></span>
+        </p>
+        <div id="btns">
+          <button id="add" onclick="add()">Add +</button>
+          <button id="calculate" onclick="calculate()">Calculate</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="logic.js"></script>
+  </body>
+</html>
