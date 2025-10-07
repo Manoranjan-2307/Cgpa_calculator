@@ -74,7 +74,7 @@
     border-radius: 15px;
     border-width: 2px;
     border-color: black;
-    border-style:groove;
+    border-style: solid;
     background-color: rgba(243, 168, 141, 0.878);
     font-family: Helvetica;
     font-weight: 600;
@@ -92,7 +92,7 @@
     border-radius: 15px;
     border-width: 2px;
     border-color: black;
-    border-style:groove;
+    border-style:solid;
     background-color: rgb(254, 182, 198);
     font-family: Helvetica;
     color:rgb(26, 17, 33);
